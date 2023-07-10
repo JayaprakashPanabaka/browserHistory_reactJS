@@ -1,0 +1,57 @@
+.li-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 4px;
+  align-items: baseline;
+}
+
+.items-container {
+  display: flex;
+  /* justify-content: space-evenly; */
+  margin: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.time-para {
+  font-size: 1.3rem;
+  color: #64748b;
+  font-weight: 600;
+  margin-right: 2rem;
+}
+
+.domain-logo {
+  height: 30px;
+  align-items: center;
+  /* justify-self: baseline; */
+  margin-right: 1rem;
+  /* text-align: center; */
+}
+
+.title {
+  font-size: 1.3rem;
+  color: #64748b;
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+.domain-url {
+  color: #475569;
+  font-weight: 400;
+  font-size: 14px;
+  align-items: center;
+}
+
+.delete-btn {
+  background-color: transparent;
+  border: none;
+}
+
+.delete-btn:hover {
+  cursor: pointer;
+}
+
+.delete-img {
+  background-color: transparent;
+  align-items: center;
+}
